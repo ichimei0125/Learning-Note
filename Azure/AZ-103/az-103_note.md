@@ -260,6 +260,7 @@ Implement [Azure backup](https://docs.microsoft.com/en-us/azure/backup/)
          1. outbound port 3260 
 
 > [difference between Azure Backup and Azure Site Recovery](https://docs.microsoft.com/en-us/azure/backup/backup-overview#whats-the-difference-between-azure-backup-and-azure-site-recovery)  
+
 > |backup|site recovery|
 > |:-|:-|
 > |backup data granular(粒状) </br> slow|access secondary location when primary location under disaster strikes </br> fast|
