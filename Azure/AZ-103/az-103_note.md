@@ -259,7 +259,7 @@ Implement [Azure backup](https://docs.microsoft.com/en-us/azure/backup/)
          1. Recovery Service URLs
          1. outbound port 3260 
 
-> [difference between Azure Backup and Azure Site Recovery](https://docs.microsoft.com/en-us/azure/backup/backup-overview#whats-the-difference-between-azure-backup-and-azure-site-recovery)
+> [difference between Azure Backup and Azure Site Recovery](https://docs.microsoft.com/en-us/azure/backup/backup-overview#whats-the-difference-between-azure-backup-and-azure-site-recovery)  
 > |backup|site recovery|
 > |:-|:-|
 > |backup data granular(粒状) </br> slow|access secondary location when primary location under disaster strikes </br> fast|
@@ -367,6 +367,7 @@ Manage Azure VM
     * application access to Windows-based Azure virtual machine (VM)  
   * redeploy steps:  
      1. Azure will shut down the VM  
+     1. move the VM to a new node within the Azure infrastructure  
      1. and then power it back on  
      1. **retaining all your configuration options and associated resource**
 
