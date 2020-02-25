@@ -263,7 +263,7 @@ Implement [Azure backup](https://docs.microsoft.com/en-us/azure/backup/)
 
 > |backup|site recovery|
 > |:-|:-|
-> |backup data granular(粒状) </br> slow|access secondary location when primary location under disaster strikes </br> fast|
+> |backup data granular </br> slow|access secondary location when primary location under disaster strikes </br> fast|
 
 ***
 
