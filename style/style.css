@@ -1,0 +1,10 @@
+.marker_line_yellow {
+    color: black;
+    background: linear-gradient(transparent 0%, #f1de2a 0%);
+}
+
+
+.underline_red {
+    text-decoration: underline;
+    text-decoration-color: #FF0000;
+}
